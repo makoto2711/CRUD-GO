@@ -1,0 +1,33 @@
+{{ define "inicio" }}
+{{ template "cabecera" }}
+
+<div class="container">
+ 
+    <a name="" id="" class="btn btn-primary" href="/crear" role="button">Agregar empleado</a>
+
+
+                      <table class="table">
+                          <thead>
+                              <tr>
+                                  <th>ID</th>
+                                  <th>Nombre</th>
+                                  <th>Correo</th>
+                                  <th>Acciones</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td scope="row">1</td>
+                                  <td>Bananero</td>
+                                  <td>hola@gmail.com</td>
+                                  <td>Editar | Borrar</td>
+                              </tr> 
+                          </tbody>
+                      </table>                 
+ 
+</div>
+
+{{template "pie"}}
+{{ end }}
+
+
